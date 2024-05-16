@@ -1,0 +1,52 @@
+.header{
+    display:flex;
+    flex-direction:row;
+    gap: 20rem;
+
+   
+}
+.header__button{
+    display:flex;
+    width: 30rem;
+    background-color:rgb(214, 213, 213);
+    margin-left:30px;
+
+   
+}
+.header__icons{
+    display: flex;
+    justify-content: end;
+}
+main{
+    display: flex;
+    column-gap:10rem;
+   
+}
+.main__coordonnées{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    margin-left: 70px;
+    
+}
+button{
+    display:flex;
+    flex-direction: row;
+    height:2rem;
+    width: 10rem;
+        
+}
+.main__create{
+    background-color: rgb(49, 195, 244);
+    border-radius:15px;
+    margin-top: 20px;
+}
+span{
+    margin-left: 70px;     
+}
+.form{
+    display: flex;
+    flex-direction: column; 
+}
